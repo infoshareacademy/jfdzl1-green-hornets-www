@@ -2,4 +2,4 @@
 
 TBD
 
-Demo: [click here](green-hornets.jfdzl1.is-academy.pl)
+Demo: [click here](http://green-hornets.jfdzl1.is-academy.pl)
