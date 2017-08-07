@@ -1,5 +1,12 @@
-# JFDZL1 - Repozytorium zespołu Green Hornets
+# JFDZL1 - Green Hornets
 
+
+## Description
 TBD
 
-Demo: [click here](http://green-hornets.jfdzl1.is-academy.pl)
+## Info
+* Development branch: `development`
+* Production branch: `master`
+
+## Demo
+Built from develop: [click here](http://green-hornets.jfdzl1.is-academy.pl)
