@@ -11,10 +11,10 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
 }
-
-.social__icons li {
-    list-style: none;
-    color: #000000;
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: relative;
 }
 
 .contact__headline {
@@ -22,18 +22,43 @@ body {
     color: #046722;
     text-align: center;
     font-size: 3.6em;
-    font-family: 'Poppins', sans-serif;
+}
+.social__icons{
+    display: block;
 }
 
 .social__icons li {
     list-style: none;
     color: #000000;
     font-size: 2em;
+
+}
+.form, .social__icons{
+    float: left;
+    width: 50%;
+    height: 40em;
 }
 
 label {
     color: #000000;
     font-size: 2em;
+    display: block;
+}
+.submit{
+    display: block;
+    margin: 20% 50%;
+    font-size: 1.8em;
+    padding: 1em 4em;
+    background-color: #046722;
+    color: #ffffff;
+    border-radius: 0.8em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+
+}
+.clear{
+    clear: both;
 }
 
 .rights {
@@ -44,7 +69,6 @@ label {
     font-size: 1.2em;
     font-weight: bold;
     padding: 1em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .big {
