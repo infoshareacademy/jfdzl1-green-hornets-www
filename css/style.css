@@ -10,6 +10,12 @@ body{
     margin: 0 auto;
     background-color: #ffffff;
 }
+.contact{
+    text-transform: uppercase;
+    color: #046722;
+    text-align: center;
+    font-size: 3.6em;
+}
 .rights{
     max-width: 100%;
     background-color: #c83a31;
