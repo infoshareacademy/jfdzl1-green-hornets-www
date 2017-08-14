@@ -10,11 +10,12 @@ body{
     margin: 0 auto;
     background-color: #ffffff;
 }
-.contact{
+.contact__headline{
     text-transform: uppercase;
     color: #046722;
     text-align: center;
     font-size: 3.6em;
+    font-family: 'Poppins', sans-serif;
 }
 .rights{
     max-width: 100%;
@@ -24,6 +25,7 @@ body{
     font-size: 1.2em;
     font-weight: bold;
     padding: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 .big{
     text-transform: uppercase;
