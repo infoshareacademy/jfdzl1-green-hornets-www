@@ -1,23 +1,26 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #dcdcdc;
     box-sizing: border-box;
     font-size: 10px;
 }
-#container{
+
+#container {
     width: 1170px;
     margin: 0 auto;
     background-color: #ffffff;
 }
-.contact__headline{
+
+.contact__headline {
     text-transform: uppercase;
     color: #046722;
     text-align: center;
     font-size: 3.6em;
     font-family: 'Poppins', sans-serif;
 }
-.rights{
+
+.rights {
     max-width: 100%;
     background-color: #c83a31;
     text-align: center;
@@ -27,6 +30,7 @@ body{
     padding: 1em;
     font-family: 'Poppins', sans-serif;
 }
-.big{
+
+.big {
     text-transform: uppercase;
 }
