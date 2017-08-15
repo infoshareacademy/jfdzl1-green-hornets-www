@@ -28,11 +28,12 @@ footer {
     display: block;
     position: relative;
 }
-.social__icons ul{
+
+.social__icons ul {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .social__icons li {
@@ -40,43 +41,58 @@ footer {
     font-size: 2em;
     line-height: 3em;
 }
-.social__icons a{
+
+.social__icons a {
     text-decoration: none;
     color: #000000;
 }
+
 .form, .social__icons {
     float: left;
     width: 50%;
     height: 50em;
 }
-.form{
+
+.form {
     position: relative;
 }
-form{
+
+form {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
 }
+
 label {
     color: #000000;
     font-size: 2em;
     display: block;
 }
 
+textarea {
+    width: 350px;
+    height: 134px;
+    border-radius: 4px;
+}
+
+.input {
+    width: 350px;
+    border-radius: 4px;
+}
+
 .submit {
     display: block;
-    margin: 35% 30%;
+    margin: 20% 30%;
     font-size: 1.8em;
-    padding: 0.6em 3em;
+    padding: 0.6em 4em;
     background-color: #046722;
     color: #ffffff;
     border-radius: 0.8em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.1em;
 
 }
 
