@@ -26,21 +26,40 @@ footer {
 
 .social__icons {
     display: block;
+    position: relative;
+}
+.social__icons ul{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .social__icons li {
     list-style: none;
-    color: #000000;
     font-size: 2em;
-
+    line-height: 3em;
 }
-
+.social__icons a{
+    text-decoration: none;
+    color: #000000;
+}
 .form, .social__icons {
     float: left;
     width: 50%;
-    height: 40em;
+    height: 50em;
 }
-
+.form{
+    position: relative;
+}
+form{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
 label {
     color: #000000;
     font-size: 2em;
@@ -49,9 +68,9 @@ label {
 
 .submit {
     display: block;
-    margin: 20% 50%;
+    margin: 35% 30%;
     font-size: 1.8em;
-    padding: 1em 4em;
+    padding: 0.6em 3em;
     background-color: #046722;
     color: #ffffff;
     border-radius: 0.8em;
