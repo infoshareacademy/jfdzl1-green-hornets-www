@@ -70,10 +70,14 @@ body {
 .col-12 {
     width: 100%;
 }
-
+.contact{
+    width: 100%;
+}
 .contact__headline {
     color: #046722;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3.6em;
 }
 
@@ -101,24 +105,9 @@ body {
 }
 
 .form, .social__icons {
-    float: left;
-    width: 50%;
-    height: 50em;
-}
+    height: 20%;
 
-.form {
-    position: relative;
 }
-
-form {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 55%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-}
-
 label {
     color: #000000;
     font-size: 2em;
