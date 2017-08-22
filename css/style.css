@@ -82,30 +82,25 @@ body {
 }
 
 .social__icons {
-    display: block;
-    position: relative;
-}
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
 
-.social__icons ul {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-
-.social__icons li {
-    list-style: none;
-    font-size: 2em;
-    line-height: 3em;
+.form{
+    font-size: 1.5em;
 }
-
 .social__icons a {
     text-decoration: none;
     color: #000000;
+    margin: 4% 0;
 }
 
 .form, .social__icons {
-    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 
 }
 label {
@@ -145,7 +140,7 @@ textarea {
 .rights {
     background-color: #c83a31;
     color: #000000;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     display: flex;
     justify-content: center;
