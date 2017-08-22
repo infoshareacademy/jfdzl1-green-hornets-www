@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,8 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
 }
-[class *= "col-"]{
+
+[class *= "col-"] {
     float: left;
     padding: 15px;
 
@@ -65,12 +67,6 @@ body {
 
 .col-12 {
     width: 100%;
-}
-
-footer {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    position: relative;
 }
 
 .contact__headline {
@@ -167,4 +163,5 @@ textarea {
 
 .big {
     text-transform: uppercase;
+
 }
