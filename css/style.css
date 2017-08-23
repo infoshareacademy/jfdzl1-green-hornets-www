@@ -70,9 +70,11 @@ body {
 .col-12 {
     width: 100%;
 }
-.contact{
+
+.contact {
     width: 100%;
 }
+
 .contact__headline {
     color: #046722;
     display: flex;
@@ -86,10 +88,12 @@ body {
     flex-direction: column;
 
 }
-.form{
+
+.form {
     font-size: 1.5em;
 
 }
+
 .social__icons a {
     text-decoration: none;
     font-size: 2em;
@@ -97,7 +101,8 @@ body {
     margin: 4% 0;
     width: 50%;
 }
-.social__icons a:hover{
+
+.social__icons a:hover {
     font-size: 3.1em;
 }
 
@@ -108,6 +113,7 @@ body {
     height: auto;
 
 }
+
 label {
     color: #000000;
     font-size: 2em;
