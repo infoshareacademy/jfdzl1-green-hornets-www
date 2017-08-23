@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -82,7 +82,6 @@ body {
 }
 
 .social__icons {
-    font-size: 3em;
     display: flex;
     flex-direction: column;
 
@@ -93,8 +92,13 @@ body {
 }
 .social__icons a {
     text-decoration: none;
+    font-size: 2em;
     color: #000000;
     margin: 4% 0;
+    width: 50%;
+}
+.social__icons a:hover{
+    font-size: 3.1em;
 }
 
 .form, .social__icons {
