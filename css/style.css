@@ -6,8 +6,22 @@ body {
     padding: 0;
     background-color: #dcdcdc;
     font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #c93629;
+    margin: 10px;
+}
+h5 {
+    font-size: 18px;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px;
+}
 #container {
     width: 1170px;
     margin: 0 auto;
@@ -156,4 +170,27 @@ textarea {
     background-color: #ffffff;
     box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
     border: solid 1px #ffffff;
+}
+.fotka {
+    margin: auto;
+    margin-bottom: 30px;
+    alignment: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.osoba p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+
+}
+.linkedin{
+    width: 35px;
+    height: auto;
+    margin: auto;
 }
