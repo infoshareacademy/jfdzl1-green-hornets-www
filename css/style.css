@@ -18,7 +18,7 @@ body {
 }
 [class *= "col-"] {
     float: left;
-    padding: 15px;
+    padding: 0 5%;
 
 }
 
@@ -73,7 +73,17 @@ body {
 .contact {
     width: 100%;
 }
+.article__aplication h2{
+    font-size: 3em;
+    text-align: center;
+}
+.article__aplication p{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .contact__headline {
     color: #046722;
     display: flex;
