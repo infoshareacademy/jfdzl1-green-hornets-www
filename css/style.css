@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #dcdcdc;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -78,45 +78,39 @@ body {
     text-align: center;
     color: #046722;
 }
-.article__aplication p{
-    font-size: 2em;
+.article-aplication p{
+    font-size: 1.1em;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.contact__headline {
+.contact-headline {
     color: #046722;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.6em;
+    font-size: 3em;
 }
 
-.social__icons {
+.social-icons {
     display: flex;
     flex-direction: column;
 
 }
-
-.form {
-    font-size: 1.5em;
-
-}
-
-.social__icons a {
+.social-icons a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.1em;
     color: #000000;
     margin: 4% 0;
     width: 50%;
 }
 
-.social__icons a:hover {
-    font-size: 3.1em;
+.social-icons a:hover {
+    font-size: 2em;
 }
 
-.form, .social__icons {
+.form, .social-icons {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -126,7 +120,7 @@ body {
 
 label {
     color: #000000;
-    font-size: 2em;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
 }
@@ -160,8 +154,8 @@ textarea {
 
 .rights{
     background-color: #c83a31;
-    color: #000000;
-    font-size: 2em;
+    color: #ffffff;
+    font-size: 1em;
     font-weight: bold;
     display: flex;
     justify-content: center;
