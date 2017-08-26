@@ -73,9 +73,10 @@ body {
 .contact {
     width: 100%;
 }
-.article__aplication h2{
+.title h3{
     font-size: 3em;
     text-align: center;
+    color: #046722;
 }
 .article__aplication p{
     font-size: 2em;
