@@ -11,6 +11,19 @@ body {
 
 }
 
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #c93629;
+    margin: 10px;
+}
+h5 {
+    font-size: 18px;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px;
+}
 #container {
     width: 100%;
     margin: 0 auto;
@@ -22,6 +35,10 @@ body {
 
 }
 
+.contact__headline {
+    display: block;
+    width: 100%;
+    color: #046722;
 .col-1 {
     width: 8.33%;
 }
@@ -78,6 +95,16 @@ body {
     text-align: center;
     color: #046722;
 }
+.zespol__headline {
+    display: block;
+    width: 100%;
+    color: #046722;
+    text-align: center;
+    font-size: 3.6em;
+}
+.social__icons {
+    display: block;
+    position: relative;
 .article-aplication p{
     font-size: 1.1em;
     display: flex;
@@ -133,18 +160,20 @@ textarea {
 }
 
 .input {
-    width: 100%;
+    width: 350px;
     border-radius: 4px;
 }
 
 .submit {
-    margin: 20% 70%;
+    display: block;
+    margin: 20% 30%;
     font-size: 1.8em;
     padding: 0.6em 4em;
     background-color: #046722;
     color: #ffffff;
     border-radius: 0.8em;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -163,7 +192,44 @@ textarea {
     width: 100%;
     padding: 1%;
 }
+
 .big {
     text-transform: uppercase;
 
+}
+.zespol{
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.osoba{
+    height: 389px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
+    border: solid 1px #ffffff;
+}
+.fotka {
+    margin: auto;
+    margin-bottom: 30px;
+    alignment: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.osoba p{
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+
+}
+.linkedin{
+    width: 35px;
+    height: auto;
+    margin: auto;
 }
