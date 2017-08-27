@@ -23,12 +23,23 @@ h5 {
     font-weight: 400;
     margin: 10px;
 }
-
+.art{
+    margin: 20% 0;
+    padding: 0 15%;
+}
 .container {
     background-color: #ffffff;
 }
+
 .bottle{
     text-align: center;
+}
+.section-aplication{
+    margin: 10% auto;
+}
+.about-aplication p{
+    font-size: 0.9em;
+    line-height: 100%;
 }
 h3 {
     font-size: 2.7em;
