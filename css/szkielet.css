@@ -3,174 +3,17 @@
 }
 
 [class *="col-"] {
-    float: left;
-    padding: 15px;
     border: 1px solid red;
 }
 
-@media only screen and (min-width: 680px) {
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 25%;
-    }
-    .col-4 {
-        width: 33.33%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 680px) {
-    .m_col-1 {
-        width: 8.33%;
-    }
-    .m_col-2 {
-        width: 16.66%;
-    }
-    .m_col-3 {
-        width: 25%;
-    }
-    .m_col-4 {
-        width: 33.33%;
-    }
-    .m_col-5 {
-        width: 41.66%;
-    }
-    .m_col-6 {
-        width: 50%;
-    }
-    .m_col-7 {
-        width: 58.33%;
-    }
-    .m_col-8 {
-        width: 66.66%;
-    }
-    .m_col-9 {
-        width: 75%;
-    }
-    .m_col-10 {
-        width: 83.33%;
-    }
-    .m_col-11 {
-        width: 91.66%;
-    }
-    .m_col-12 {
-        width: 100%;
-    }
-}
-
-body {
-    border: 1px solid red;
-}
-
-.container {
-    border: 1px solid red;
-    width: 100%;
-    height: 900px;
-}
-
-.header {
-    border: 1px solid red;
-    height: 103px;
-    width: 100%;
-}
-
-.header__menu {
-    border: 1px solid red;
-}
-
-.header__logo {
-    border: 1px solid red;
-}
-
-.section {
-    border: 1px solid red;
-    width: 100%;
-    height: 708px;
-}
-
-.section__slider {
-    border: 1px solid red;
-    width: 100%;
-    height: 50px;
+.slider {
     text-align: center;
 }
 
-.section__o_apce {
-    border: 1px solid red;
-    width: 100%;
-}
-
-.article__titile {
-    border: 1px solid red;
+.title {
     text-align: center;
 }
 
-.article__img {
-    border: 1px solid red;
-    min-width: 320px;
-}
-
-.article__p {
-    border: 1px solid red;
-    min-width: 320px;
-}
-
-.section__historia {
-    border: 1px solid red;
-    width: 100%;
-}
-
-.section__o_nas {
-    border: 1px solid red;
-    width: 100%;
-}
-
-.section__kontakt {
-    border: 1px solid red;
-    width: 100%;
-}
-
-.article__icon {
-    border: 1px solid red;
-    min-width: 320px;
-}
-
-.article__form {
-    border: 1px solid red;
-    min-width: 320px;
-}
-
-footer {
-    border: 1px solid red;
-    width: 100%;
-    height: 40px;
+.footer {
     text-align: center;
 }
