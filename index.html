@@ -2,22 +2,27 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Lubeer!</title>
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
-
+    <title>Lubeer</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-<div id="container">
+<div class="container">
     <header>
         <nav></nav>
     </header>
     <section>
-        <article class="zajawka"></article>
+
         <article class="olubeer"></article>
-        <article class="row">
-            <div class="col-6 article__aplication">
-                    <h2>O aplikacji</h2>
+        <div>
+            <article class="row">
+                <div class="col-xs-12">
+                    <div class="hedline_bar">
+                        <h3>O aplikacji</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6">
                     <p>Lubeer to potężna baza danych. Lubeer to wyszukiwarka niepowtarzalnych smaków lubelszczyzny, piwa
                         warzonego z sercem i miłością do tego wspaniałego trunku. Dzieki Lubber odnajdziesz to co
                         najbardziej interesuje Cię w każdym z proponowanych piw. Zaawansowana wyszukiwarka pozwoli Ci
@@ -30,51 +35,118 @@
                         Kiedy już znajdziesz najlepszą warkę dla siebie, wskarzemy Ci miejsce gdzie możesz ją zakupić.
                         Wypróbuj już teraz i ciesz się łatwością z jaką możesz tworzyć własne statystyki piw i browarów
                         lokalnych.</p>
-
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6">
+                    <img src="./images/Botle_lup.jpg">
+                </div>
+            </article>
+        </div>
+        <section class="zespol">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hedline_bar">
+                        <h3>Zespół</h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-6 picture__aplication"></div>
-
-
-        </article>
-    </section>
-    <section class="row">
-        <div class="col-12 contact__headline">
-            <h3>Kontakt</h3>
-        </div>
-        <div class="col-6 social__icons">
-            <a href="#"><img src="./images/massage.png">Email</a>
-            <a href="#"><img src="./images/phone.png">Telofon</a>
-            <a href="#"><img src="./images/skype.png">Skype</a>
-            <a href="#"><img src="./images/facebook.png">Facebook</a>
-
-        </div>
-        <div class="col-6 form">
-            <form>
-
-                <label>Imię i Nazwisko</label>
-                <input class="input" name="name" placeholder="">
-
-                <label>E-mail</label>
-                <input class="input" name="email" type="email" placeholder="">
-
-                <label>Wiadomość</label>
-                <textarea name="message" placeholder=""></textarea>
-
-                <input class="submit" name="submit" type="submit" value="Wyślij">
-
-            </form>
-
-
-        </div>
-    </section>
-    <div class="clear"></div>
-    <div class="row">
-        <footer class="col-12 footer">
-            <p class="rights"> &copy;All rights reserved - <span class="big">lubeer</span></p>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="osoba">
+                        <div class="fotka">
+                            <img class="img-responsive img-circle" src="./images/krzy.jpg"/>
+                        </div>
+                        <h4>Krzysztof Durak</h4>
+                        <h5>Designer/Frontend developer</h5>
+                        <p>"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po
+                            prostu
+                            dlatego, że to ból..." </p>
+                        <i><img class="linkedin" src="./images/Linkedin.svg"></i>
+                        <i><img class="linkedin" src="./images/git.svg"></i>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <div class="osoba">
+                        <div class="fotka">
+                            <img class="img-responsive img-circle" src="./images/Maciek.jpg"/>
+                        </div>
+                        <h4>Maciej Górnicki</h4>
+                        <h5>Designer/Frontend developer</h5>
+                        <p>"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po
+                            prostu
+                            dlatego, że to ból..." </p>
+                        <i><img class="linkedin" src="./images/Linkedin.svg"></i>
+                        <i><img class="linkedin" src="./images/git.svg"></i>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <div class="osoba">
+                        <div class="fotka">
+                            <img class="img-responsive img-circle" src="./images/Darek.jpg"/>
+                        </div>
+                        <h4>Dariusz Smoląg</h4>
+                        <h5>Frontend developer</h5>
+                        <p>"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po
+                            prostu
+                            dlatego, że to ból..." </p>
+                        <i><img class="linkedin" src="./images/Linkedin.svg"></i>
+                        <i><img class="linkedin" src="./images/git.svg"></i>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <div class="osoba">
+                        <div class="fotka">
+                            <img class="img-responsive img-circle" src="./images/Radek.jpg"/>
+                        </div>
+                        <h4>Radosław Stępniewski</h4>
+                        <h5>Frontend developer</h5>
+                        <p>"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po
+                            prostu
+                            dlatego, że to ból..." </p>
+                        <i><img class="linkedin" src="./images/Linkedin.svg"></i>
+                        <i><img class="linkedin" src="./images/git.svg"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="col-12">
+                <div class="hedline_bar">
+                    <h3>Kontakt</h3>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="social__icons">
+                    <ul>
+                        <li><a href="#"><img src="./images/massage.png" alt="icon massage"> Email adress</a></li>
+                        <li><a href="#"><img src="./images/phone.png" alt="icon phone"> Phone number</a></li>
+                        <li><a href="#"><img src="./images/skype.png" alt="icon skype"> Skype</a></li>
+                        <li><a href="#"><img src="./images/facebook.png" alt="icon facebook"> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form">
+                    <form>
+                        <label>Imię i Nazwisko</label>
+                        <input class="input" name="name" placeholder="">
+                        <label>E-mail</label>
+                        <input class="input" name="email" type="email" placeholder="">
+                        <label>Wiadomość</label>
+                        <textarea name="message" placeholder=""></textarea>
+                        <input class="submit" name="submit" type="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="rights">
+                &copy;All rights reserved <span class="big">lubeer</span>
+            </div>
         </footer>
-    </div>
-
 </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
