@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+[class *="col-"] {
+    border: 1px solid red;
+}
+
+.slider {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
