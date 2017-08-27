@@ -1,136 +1,109 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #dcdcdc;
-    font-size: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#container {
-    width: 1170px;
-    margin: 0 auto;
+h4 {
+    font-weight: 500;
+    font-size: 1.4em;
+    color: #c93629;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 1.2em;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.container {
     background-color: #ffffff;
 }
-[class *= "col-"]{
-    float: left;
-    padding: 15px;
-
+.bottle{
+    text-align: center;
+}
+h3 {
+    font-size: 2.7em;
+    text-align: center;
+    color: #046722;
 }
 
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
+.headline-bar {
+    display: block;
     width: 100%;
-}
-
-footer {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    position: relative;
-}
-
-.contact__headline {
     color: #046722;
     text-align: center;
-    font-size: 3.6em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.article-aplication p {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.social__icons {
-    display: block;
-    position: relative;
+.contact-headline {
+    color: #046722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
 }
 
-.social__icons ul {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.social__icons li {
-    list-style: none;
-    font-size: 2em;
-    line-height: 3em;
-}
-
-.social__icons a {
+.social-icons {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    color: #000000;
 }
 
-.form, .social__icons {
-    float: left;
+.social-icons a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #000000;
+    margin: 4% 0;
     width: 50%;
-    height: 50em;
+}
+
+.social-icons a:hover {
+    font-size: 2em;
+}
+.asd{
+    margin: auto;
+    width: 100px;
+}
+.form, .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
 }
 
 .form {
-    position: relative;
-}
-
-form {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 55%;
-    left: 65%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    display: block;
 }
 
 label {
     color: #000000;
-    font-size: 2em;
-    display: block;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
 }
 
 textarea {
-    width: 350px;
-    height: 134px;
+
     border-radius: 4px;
+    width: 100%;
+    height: 200px;
 }
 
 .input {
@@ -146,8 +119,6 @@ textarea {
     background-color: #046722;
     color: #ffffff;
     border-radius: 0.8em;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -157,14 +128,58 @@ textarea {
 
 .rights {
     background-color: #c83a31;
-    color: #000000;
-    font-size: 1.2em;
+    color: #ffffff;
+    font-size: 1em;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 1%;
 }
 
 .big {
     text-transform: uppercase;
+
+}
+
+.zespol {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.osoba {
+    height: 389px;
+    padding: 30px 5px 10px 5px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
+    border: solid 1px #ffffff;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.fotka {
+    margin: auto;
+    margin-bottom: 30px;
+    alignment: center;
+    width: 100px;
+    height: 100px;
+}
+
+.osoba p {
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    margin: 10px;
+
+}
+
+.linkedin {
+    width: 35px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
 }
