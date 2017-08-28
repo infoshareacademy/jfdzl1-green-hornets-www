@@ -33,18 +33,13 @@ h3 {
     color: #046722;
 }
 
-.hedline_bar {
+.headline-bar {
     display: block;
     width: 100%;
     color: #046722;
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-}
-
-.social__icons {
-    display: block;
-    position: relative;
 }
 
 .article-aplication p {
@@ -65,6 +60,7 @@ h3 {
 .social-icons {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .social-icons a {
@@ -78,12 +74,20 @@ h3 {
 .social-icons a:hover {
     font-size: 2em;
 }
-
+.asd{
+    margin: auto;
+    width: 100px;
+}
 .form, .social-icons {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: auto;
+}
+
+.form {
+    text-align: center;
+    display: block;
 }
 
 label {
