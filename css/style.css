@@ -76,7 +76,7 @@ h3 {
     text-decoration: none;*/
 
 
-.social-icons a {
+.icon-contact a {
     text-decoration: none;
     font-size: 1.1em;
     color: #000000;
@@ -88,6 +88,10 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+.icon-contact{
+    display: flex;
+    justify-content: center;
+}
 .form{
     display: flex;
     flex-direction: column;
@@ -96,10 +100,8 @@ h3 {
 .social-icons a:hover {
     font-size: 2em;
 }
-.asd{
-    margin: auto;
-    width: 100px;
-}
+
+
 .form, .social-icons {
     display: flex;
     justify-content: flex-start;
