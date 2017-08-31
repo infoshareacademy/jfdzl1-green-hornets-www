@@ -245,8 +245,6 @@ textarea {
 
 @media (max-width: 500px) {}
 
-@media (min-width: 768px) {}
-
 @media (min-width: 992px) {
     .display_mobile {
         display: none;

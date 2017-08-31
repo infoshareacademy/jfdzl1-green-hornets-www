@@ -40,8 +40,8 @@
 .img_menu_2 {
     width: 30px;
     position: fixed;
-    top: 49px;
-    left: 197px;
+    top: 43px;
+    left: 217px;
     margin: 0 !important;
 }
 
@@ -81,6 +81,19 @@
     .menu_icon {
         margin-bottom: 60px;
     }
+    .navigation-content {
+        width: 227px;
+    }
+    .img_menu_2 {
+        width: 30px;
+        position: fixed;
+        top: 24px;
+        left: 160px;
+        margin: 0 !important;
+    }
+    .navigation__header {
+        height: 65px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -117,5 +130,11 @@
 @media (min-width: 500px) {
     .mobile_menu {
         display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation__header {
+        height: 105px;
     }
 }
