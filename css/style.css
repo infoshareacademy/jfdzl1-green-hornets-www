@@ -1,185 +1,228 @@
-body {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-}
+    body {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
 
+    h3 {
+        font-size: 2.7em;
+        color: #046722;
+    }
 
-/*[class *="col-"] {
-    border: 1px solid red;
-}*/
+    .osoba h4 {
+        font-weight: bold;
+        font-size: 1.4em;
+        color: #c93629;
+        margin-bottom: 15px;
+        height: 37px;
+    }
 
-h3 {
-    font-size: 2.7em;
-    color: #046722;
-}
+    .osoba h5 {
+        font-size: 1.2em;
+        color: #d8d8d8;
+        font-style: italic;
+        font-weight: 400;
+        margin: 7px;
+        height: 35px;
+    }
 
-h4 {
-    font-weight: bold;
-    font-size: 1.4em;
-    color: #c93629;
-    margin-bottom: 15px;
-}
+    .image_p {
+        text-align: center;
+        max-height: 49vh;
+    }
 
-h5 {
-    font-size: 1.2em;
-    color: #d8d8d8;
-    font-style: italic;
-    font-weight: 400;
-    margin: 7px;
-}
+    .image_p img {
+        display: inline-block;
+        max-height: 49vh;
+    }
 
-.image_p {
-    text-align: center;
-    max-height: 49vh;
-}
+    .osoba p {
+        text-align: center;
+    }
 
-.image_p img {
-    display: inline-block;
-    max-height: 49vh;
-}
+    p {
+        text-align: justify;
+    }
 
-.middle {}
+    .hamburger {
+        height: 101px;
+    }
 
-.middle p {}
+    .hamburger img {
+        margin: 40px 13px;
+    }
 
-p {
-    text-align: justify;
-}
+    .try--fixed {
+        position: fixed;
+        width: 100px;
+        height: 74px;
+        border-radius: 8px;
+        background-color: #046722;
+        box-shadow: 0 2px 5px 3px rgba(132, 132, 132, 0.5);
+        z-index: 9999;
+        right: -5px;
+        bottom: 45px;
+        text-align: center;
+        color: #ffffff;
+    }
 
-.hamburger {
-    height: 101px;
-}
+    .try-icon {
+        line-height: 46px;
+        font-size: 26px;
+        padding: 0px 10px;
+    }
 
-.hamburger img {
-    margin: 40px 13px;
-}
+    .try-text {
+        font-size: 14px;
+        font-weight: bold;
+    }
 
-.logo {
-    text-align: center;
-    margin: 20px 0;
-}
+    .logo {
+        text-align: center;
+        margin: 20px 0;
+    }
 
-.logo img {
-    padding-right: 9%;
-}
+    .logo img {
+        padding-right: 9%;
+    }
 
-.slider {
-    margin-top: 20px;
-}
+    .slider {
+        margin-top: 20px;
+    }
 
-.headline_bar {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
+    .headline_bar {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 
-.osoba {
-    border-radius: 15px;
-    box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
-    text-align: center;
-    margin: 15px 0;
-    padding: 15px;
-}
+    .osoba {
+        border-radius: 15px;
+        box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
+        text-align: center;
+        margin: 15px 0;
+        padding: 15px;
+    }
 
-.osoba p {
-    font-size: 1.1em;
-}
+    .osoba p {
+        font-size: 1.1em;
+    }
 
-.fotka {
-    margin: 0 auto;
-    width: 100px;
-    padding-bottom: 20px;
-    display: inline-block;
-}
+    .fotka {
+        margin: 0 auto;
+        width: 100px;
+    }
 
-.linkedin {
-    width: 35px;
-    height: auto;
-    margin: auto;
-    margin-top: 15px;
-}
+    .decryption-box {}
 
-.social-icons {
-    padding: 12px 0px 12px 0;
-    text-align: center;
-}
+    .linkedin {
+        width: 35px;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+    }
 
-.social-icons img {
-    padding-right: 5px;
-}
+    .social-icons {
+        padding: 12px 0px 12px 0;
+        text-align: center;
+    }
 
-.social-icons a {
-    text-decoration: none;
-    font-size: 1.1em;
-    color: #000000;
-    margin: 4% 0;
-    width: 50%;
-}
+    .social-icons img {
+        padding-right: 5px;
+    }
 
-.social-icons a:hover {
-    font-size: 2em;
-}
+    .social-icons a {
+        text-decoration: none;
+        font-size: 1.1em;
+        color: #000000;
+        margin: 4% 0;
+        width: 50%;
+    }
 
-.skype {
-    margin-left: -62px;
-}
+    .skype {
+        margin-left: -62px;
+    }
 
-.fb {
-    margin-left: -36px;
-}
+    .fb {
+        margin-left: -36px;
+    }
 
-.email {
-    margin-left: -15px;
-}
+    .email {
+        margin-left: -15px;
+    }
 
-.phone {
-    margin-left: 0;
-}
+    .phone {
+        margin-left: 0;
+    }
 
-.form {
-    text-align: center;
-    display: block;
-}
+    .form {
+        text-align: center;
+    }
 
-label {
-    color: #000000;
-    font-size: 1.1em;
-    display: flex;
-    flex-direction: column;
-}
+    label {
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: column;
+    }
 
-textarea {
-    border-radius: 4px;
-    width: 100%;
-    height: 200px;
-}
+    textarea {
+        border-radius: 4px;
+        width: 100%;
+        height: 200px;
+    }
 
-.input {
-    width: 100%;
-    border-radius: 4px;
-    max-width: 350px;
-}
+    .input {
+        width: 100%;
+        border-radius: 4px;
+        max-width: 350px;
+    }
 
-.submit {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    font-size: 1.8em;
-    padding: 4% 19%;
-    background-color: #046722;
-    color: #ffffff;
-    border-radius: 25px;
-}
+    .submit {
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        font-size: 1.8em;
+        padding: 4% 19%;
+        background-color: #046722;
+        color: #ffffff;
+        border-radius: 25px;
+    }
 
-.footer {
-    background-color: #c83a31;
-    color: #ffffff;
-    font-size: 1em;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1%;
-}
+    .footer {
+        background-color: #c83a31;
+        color: #ffffff;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    @media (max-width: 1200px) {
+        .osoba h4 {
+            height: 10px;
+        }
+        .osoba h5 {
+            height: 20px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .submit {
+            padding: 2.4% 12%;
+            font-size: 1.4em;
+            border-radius: 20px;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+    }
+
+    @media (min-width: 500px) {}
+
+    @media (min-width: 768px) {}
+
+    @media (min-width: 992px) {
+        .social-icons a:hover {
+            font-size: 2em;
+        }
+    }
+
+    @media (min-width: 1200px) {}
