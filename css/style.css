@@ -6,8 +6,6 @@ body {
 }
 
 .container {
-    border-left: 15px solid #d8d8d8;
-    border-right: 15px solid #d8d8d8;
 }
 
 .try--fixed {
@@ -54,9 +52,13 @@ body {
     margin-top: 20px;
 }
 
+.carousel-control {
+    margin-right: 30px;
+}
+
 .headline_bar {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-top: 30px;
 }
 
@@ -69,14 +71,10 @@ body {
     font-size: 2.7em;
     color: #ffffff;
     text-align: center;
-}
-
-.middle p {
-    text-align: justify;
+    margin-bottom: 60px;
 }
 
 .middle_w p {
-    text-align: justify;
     color: #ffffff;
 }
 
@@ -128,19 +126,21 @@ body {
 
 .osoba p {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.9em;
+    margin: 20px 0;
 }
 
 .linkedin {
     width: 35px;
     height: auto;
     margin: auto;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .social-icons {
     padding: 12px 0px 12px 0;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .social-icons img {
@@ -172,36 +172,42 @@ body {
 }
 
 .form {
-    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 label {
     font-size: 1.1em;
     display: flex;
     flex-direction: column;
+
 }
 
 .input {
     width: 100%;
     border-radius: 4px;
-    max-width: 350px;
+    border: solid 1px #DFDFDF;
+    margin-bottom: 20px;
 }
 
 textarea {
     border-radius: 4px;
     width: 100%;
     height: 200px;
+    border: solid 1px #DFDFDF;
 }
 
 .submit {
+    width: 165px;
+    height: 55px;
     margin: 0 auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    font-size: 1.8em;
-    padding: 4% 19%;
+    font-size: 1.3em;
     background-color: #046722;
     color: #ffffff;
-    border-radius: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
 }
 
 .footer {
@@ -222,6 +228,7 @@ textarea {
     .osoba h4 {
         height: 10px;
     }
+
     .osoba h5 {
         height: 20px;
     }
@@ -235,26 +242,26 @@ textarea {
         margin-bottom: 10%;
         margin-top: 10%;
     }
+
     .display_mobile {
         display: inline-block;
     }
+
     .hidden_mobile {
         display: none;
     }
 }
-
-@media (max-width: 500px) {}
 
 @media (min-width: 992px) {
     .display_mobile {
         display: none;
     }
+
     .hidden_mobile {
         display: inline-block;
     }
+
     .social-icons a:hover {
         font-size: 2em;
     }
 }
-
-@media (min-width: 1200px) {}
