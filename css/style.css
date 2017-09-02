@@ -3,7 +3,6 @@
 body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    padding-top: 60px;
 }
 
 .container {
@@ -53,6 +52,10 @@ body {
     margin-top: 20px;
 }
 
+.carousel-control {
+    margin-right: 30px;
+}
+
 .headline_bar {
     text-align: center;
     margin-bottom: 60px;
@@ -69,9 +72,6 @@ body {
     color: #ffffff;
     text-align: center;
     margin-bottom: 60px;
-}
-
-.middle p {
 }
 
 .middle_w p {
@@ -111,14 +111,17 @@ body {
     font-weight: bold;
     font-size: 1.4em;
     color: #c93629;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    height: 37px;
 }
 
 .osoba h5 {
     font-size: 1.2em;
     color: #d8d8d8;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
+    margin: 7px;
+    height: 35px;
 }
 
 .osoba p {
@@ -249,9 +252,6 @@ textarea {
     }
 }
 
-@media (max-width: 500px) {
-}
-
 @media (min-width: 992px) {
     .display_mobile {
         display: none;
@@ -264,7 +264,4 @@ textarea {
     .social-icons a:hover {
         font-size: 2em;
     }
-}
-
-@media (min-width: 1200px) {
 }
