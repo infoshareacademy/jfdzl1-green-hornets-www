@@ -72,11 +72,9 @@ body {
 }
 
 .middle p {
-    text-align: justify;
 }
 
 .middle_w p {
-    text-align: justify;
     color: #ffffff;
 }
 
@@ -113,7 +111,7 @@ body {
     font-weight: bold;
     font-size: 1.4em;
     color: #c93629;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .osoba h5 {
@@ -227,6 +225,7 @@ textarea {
     .osoba h4 {
         height: 10px;
     }
+
     .osoba h5 {
         height: 20px;
     }
@@ -240,26 +239,32 @@ textarea {
         margin-bottom: 10%;
         margin-top: 10%;
     }
+
     .display_mobile {
         display: inline-block;
     }
+
     .hidden_mobile {
         display: none;
     }
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+}
 
 @media (min-width: 992px) {
     .display_mobile {
         display: none;
     }
+
     .hidden_mobile {
         display: inline-block;
     }
+
     .social-icons a:hover {
         font-size: 2em;
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
