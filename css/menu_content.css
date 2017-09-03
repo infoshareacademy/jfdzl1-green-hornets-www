@@ -112,6 +112,7 @@
     }
     .navigaton__list {
         width: 100%;
+        margin-bottom: 20px;
     }
     .list-item-p {
         width: 100%;
