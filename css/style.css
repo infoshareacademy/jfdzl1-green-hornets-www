@@ -57,6 +57,11 @@ body {
 
 .slider_img {
     width: 50%;
+    margin-left: 5%;
+}
+
+.slider_img img {
+    max-height: 43vh;
 }
 
 .slider h1 {
