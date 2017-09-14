@@ -4,7 +4,7 @@
 TBD
 
 ## Info
-* Development branch: `development`
+* Development branch: `develop`
 * Production branch: `master`
 
 ## Demo
