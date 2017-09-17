@@ -16,4 +16,9 @@ for (var itteration = 1; itteration <= 100; itteration++) {
 	if (modulo3 === 0 && modulo5 === 0) {
 		console.log(itteration, "FizzBuzz");
 	}
+	
+	if (modulo3 !== 0 && modulo5 !== 0) {
+		console.log(itteration);
+	}
 }
+
