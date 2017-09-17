@@ -7,17 +7,11 @@ for (var itteration = 1; itteration <= 100; itteration++) {
 
 	if (modulo3 === 0 && modulo5 !== 0) {
 		console.log(itteration, "Fizz");
-	} 
-
-	if (modulo5 === 0 && modulo3 !== 0) {
+	} else if (modulo5 === 0 && modulo3 !== 0) {
 		console.log(itteration, "Buzz");
-	}
-
-	if (modulo3 === 0 && modulo5 === 0) {
+	} else if (modulo3 === 0 && modulo5 === 0) {
 		console.log(itteration, "FizzBuzz");
-	}
-	
-	if (modulo3 !== 0 && modulo5 !== 0) {
+	} else {
 		console.log(itteration);
 	}
 }
