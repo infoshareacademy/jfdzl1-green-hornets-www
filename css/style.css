@@ -126,7 +126,6 @@ body {
 .bg_history {
     background-color: #0c6728;
 }
-
 .image_p {
     text-align: center;
     max-height: 49vh;
@@ -149,12 +148,25 @@ body {
     text-align: center;
     margin: 15px 0;
     padding: 15px;
+    z-index: 0;
 }
+
 
 .fotka {
     margin: 0 auto;
-    width: 100px;
+    width: 50%;
+    border: #ffffff 5px solid;
+    transition-duration:3s;
+    transition-timing-function: ease;
+    transition-delay:500ms;
 }
+.fotka:hover{
+    background: #000000;
+    border: #007227 5px solid;
+    width: 60%;
+
+}
+
 
 .osoba h4 {
     font-weight: bold;
