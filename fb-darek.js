@@ -15,4 +15,3 @@ for (var itteration = 1; itteration <= 100; itteration++) {
 		console.log(itteration);
 	}
 }
-
