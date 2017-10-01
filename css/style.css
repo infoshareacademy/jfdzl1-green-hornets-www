@@ -78,7 +78,7 @@ body {
     font-size: 1.5em;
 }
 
-.submit_wyprobuj {
+.submit_try {
     width: 165px;
     height: 55px;
     margin: 0 auto;
@@ -87,6 +87,10 @@ body {
     color: #ffffff;
     border-radius: 5px;
     border: none;
+}
+.submit_try:hover{
+    background-color: darkred;
+
 }
 
 .headline_bar {
@@ -161,7 +165,7 @@ body {
 
 }
 
-.photo:hover {
+.osoba:hover .photo {
     background: #000000;
     border: #007227 5px solid;
     width: 60%;
@@ -269,6 +273,10 @@ textarea {
     border-radius: 5px;
     border: none;
     margin-top: 20px;
+}
+.submit:hover{
+    background-color: darkred;
+
 }
 
 .footer {
