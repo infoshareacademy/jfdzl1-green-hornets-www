@@ -35,7 +35,7 @@ body {
 
 .logo {
     text-align: center;
-    margin: 20px 0 0 0;
+    margin:5px;
     padding-right: 8%;
 }
 
@@ -44,15 +44,12 @@ body {
 }
 
 .slider {
-    margin-top: 20px;
+    margin-top: 150px;
+    display: flex;
 }
 
 .slider_p {
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
+    flex-direction: row;
 }
 
 .slider_img {
@@ -111,6 +108,7 @@ body {
     text-align: center;
     margin-bottom: 40px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .middle {
@@ -162,6 +160,7 @@ body {
     border: #ffffff 5px solid;
     transition-duration: 0.6s;
     transition-timing-function: ease;
+    border-radius: 50%;
 
 }
 
@@ -221,19 +220,19 @@ body {
 }
 
 .skype {
-    margin-left: -56px;
+    /*margin-left: -56px;*/
 }
 
 .fb {
-    margin-left: -32px;
+    /*margin-left: -32px;*/
 }
 
 .email {
-    margin-left: 17px;
+    /*margin-left: 17px;*/
 }
 
 .phone {
-    margin-left: 0;
+    /*margin-left: 0;*/
 }
 
 .form {
@@ -340,7 +339,7 @@ textarea {
 
 @media (max-width: 750px) {
     .slider {
-        margin: 20px 0 180px 0;
+        margin: 150px 0 100px 0;
     }
 
     .slider h1 {
@@ -393,4 +392,7 @@ textarea {
     .social-icons a:hover {
         font-size: 2em;
     }
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #0c6728;
 }
