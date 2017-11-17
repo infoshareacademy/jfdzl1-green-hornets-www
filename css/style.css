@@ -5,8 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-}
+.container {}
 
 .try--fixed {
     position: fixed;
@@ -35,7 +34,7 @@ body {
 
 .logo {
     text-align: center;
-    margin:5px;
+    margin: 5px;
     padding-right: 8%;
 }
 
@@ -85,9 +84,9 @@ body {
     border-radius: 5px;
     border: none;
 }
-.submit_try:hover{
-    background-color: darkred;
 
+.submit_try:hover {
+    background-color: darkred;
 }
 
 .headline_bar {
@@ -115,7 +114,7 @@ body {
     margin-bottom: 25px;
 }
 
-.middle_w > p:first-child, .middle > p:first-child {
+.middle_w>p:first-child, .middle>p:first-child {
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -161,14 +160,12 @@ body {
     transition-duration: 0.6s;
     transition-timing-function: ease;
     border-radius: 50%;
-
 }
 
 .osoba:hover .photo {
     background: #000000;
     border: #007227 5px solid;
     width: 60%;
-
 }
 
 .osoba h4 {
@@ -245,7 +242,6 @@ label {
     font-size: 1.1em;
     display: flex;
     flex-direction: column;
-
 }
 
 .input {
@@ -273,9 +269,9 @@ textarea {
     border: none;
     margin-top: 20px;
 }
-.submit:hover{
-    background-color: darkred;
 
+.submit:hover {
+    background-color: darkred;
 }
 
 .footer {
@@ -296,7 +292,6 @@ textarea {
     .osoba h4 {
         height: 10px;
     }
-
     .osoba h5 {
         height: 20px;
     }
@@ -309,29 +304,23 @@ textarea {
         margin-bottom: 10%;
         margin-top: 10%;
     }
-
     .display_mobile {
         display: inline-block;
     }
-
     .hidden_mobile {
         display: none;
     }
-
     .slider h1 {
         font-size: 3.5em;
         color: #CF3128;
         font-weight: bold;
     }
-
     .lubisz_p_1 {
         font-size: 2em;
     }
-
     .lubisz_p_2 {
         font-size: 1em;
     }
-
     .slider img {
         max-width: 80%;
     }
@@ -341,40 +330,32 @@ textarea {
     .slider {
         margin: 150px 0 100px 0;
     }
-
     .slider h1 {
         font-size: 1.5em;
         color: #CF3128;
         font-weight: bold;
     }
-
     .lubisz_p_1 {
         font-size: 1.2em;
     }
-
     .lubisz_p_2 {
         font-size: 0.9em;
     }
-
     .slider img {
         max-width: 80%;
     }
-
     .submit_wyprobuj {
         width: 130px;
         height: 43px;
         font-size: 1.1em;
     }
-
     .image_p img {
         max-height: 31vh;
     }
-
     .headline_bar_w h3 {
         margin-bottom: 0px;
         font-size: 2em;
     }
-
     .headline_bar h3 {
         font-size: 2em;
     }
@@ -384,15 +365,14 @@ textarea {
     .display_mobile {
         display: none;
     }
-
     .hidden_mobile {
         display: inline-block;
     }
-
     .social-icons a:hover {
         font-size: 2em;
     }
 }
-.navbar-dark .navbar-nav .nav-link{
+
+.navbar-dark .navbar-nav .nav-link {
     color: #0c6728;
 }
