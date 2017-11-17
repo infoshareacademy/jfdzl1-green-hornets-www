@@ -23,8 +23,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
-<<div id="page-top">
+<body class="container" data-spy="scroll" data-target=".navbar" data-offset="70">
+<div id="page-top">
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
@@ -38,90 +38,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about_app">O aplikacji</a>
+                    <a class="nav-link js-scroll-trigger" target="#about_app">O aplikacji</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#history">Historia browarnictwa</a>
+                    <a class="nav-link js-scroll-trigger" target="#history">Historia browarnictwa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">Zespół</a>
+                    <a class="nav-link js-scroll-trigger" target="#team">Zespół</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Kontact</a>
+                    <a class="nav-link js-scroll-trigger" target="#contact">Kontact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="container">
-    <!--<div class="row">-->
-        <!--<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">-->
-            <!--<div class="menu_icon">-->
-                <!--<div class="dropdown">-->
-                    <!--<a id="Label" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true"-->
-                       <!--aria-expanded="false">-->
-                        <!--<img src="./images/group.svg" alt="menu" class="img_menu_1">-->
-                    <!--</a>-->
-                    <!--<ul class="dropdown-menu" aria-labelledby="dLabel">-->
-                        <!--<div class="anti-shadow-div">-->
-                            <!--<div class="navigation-content">-->
-                                <!--<div class="navigation__header">-->
-                                    <!--<img src="./images/group.svg" alt="menu" class="img_menu_2">-->
-                                <!--</div>-->
-                                <!--<div class="navigaton__list">-->
-                                    <!--<a href="#home" class="list-item__link">-->
-                                        <!--<div class="list-item-p  border_top">Strona główna</div>-->
-                                    <!--</a>-->
-                                    <!--<a href="#about_app" class="list-item__link">-->
-                                        <!--<div class="list-item-p">O aplikacji</div>-->
-                                    <!--</a>-->
-                                    <!--<a href="#history" class="list-item__link">-->
-                                        <!--<div class="list-item-p">Historia browarnictwa</div>-->
-                                    <!--</a>-->
-                                    <!--<a href="#team" class="list-item__link">-->
-                                        <!--<div class="list-item-p">Zespół</div>-->
-                                    <!--</a>-->
-                                    <!--<a href="#contact" class="list-item__link">-->
-                                        <!--<div class="list-item-p">Kontakt</div>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">-->
-            <!--<div class="logo">-->
-                <!--<img src="./images/lubeer_logo.svg" alt="logo">-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col-xs-12 mobile_menu">-->
-            <!--<a id="dLabel" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true"-->
-               <!--aria-expanded="false">-->
-                <!--<img src="./images/group.svg" alt="menu" class="img_menu_1">-->
-            <!--</a>-->
-            <!--<ul class="dropdown-menu" aria-labelledby="dLabel">-->
-                <!--<div class="navigaton__list">-->
-                    <!--<a href="#home" class="list-item__link">-->
-                        <!--<div class="list-item-p  border_top">Strona główna</div>-->
-                    <!--</a>-->
-                    <!--<a href="#about_app" class="list-item__link">-->
-                        <!--<div class="list-item-p">O aplikacji</div>-->
-                    <!--</a>-->
-                    <!--<a href="#history" class="list-item__link">-->
-                        <!--<div class="list-item-p">Historia browarnictwa</div>-->
-                    <!--</a>-->
-                    <!--<a href="#team" class="list-item__link">-->
-                        <!--<div class="list-item-p">Zespół</div>-->
-                    <!--</a>-->
-                    <!--<a href="#contact" class="list-item__link">-->
-                        <!--<div class="list-item-p">Kontakt</div>-->
-                    <!--</a>-->
-                <!--</div>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
     <a href="http://lubeer.pl" class="list-item__link">
         <div class="try--fixed"><span class="glyphicon glyphicon-new-window try-icon" aria-hidden="true"></span><span
                 class="try-text">Wypróbuj</span></div>
@@ -334,7 +266,7 @@
             <div class="form">
                 <form action="https://formspree.io/d.smolag@gmail.com" method="post">
                     <label>Imię i Nazwisko</label>
-                    <input class="input" name="name" type=text" placeholder="">
+                    <input class="input" name="name" type="text" placeholder="">
                     <label>E-mail</label>
                     <input class="input" name="replyto" type="email" placeholder="">
                     <label>Wiadomość</label>
