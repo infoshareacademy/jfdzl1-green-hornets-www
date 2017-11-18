@@ -1,6 +1,11 @@
 /*Darq*/
 
+body, html {
+    overflow-x: hidden;
+}
+
 body {
+    position: relative;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     width: 100% !important;
@@ -18,17 +23,6 @@ body {
     text-align: center;
     color: #ffffff;
 }
-/*.container-fluid{
-    position: relative;
-}
-.nav {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);   /*Jak się od komentuję to jest równa belka ale rwd i menu w hamburgerze siada -- scroll na dole
-}
-*/
-
 
 .try-icon {
     line-height: 46px;
@@ -279,6 +273,7 @@ textarea {
     border-radius: 5px;
     border: none;
     margin-top: 20px;
+    text-align: center;
 }
 .submit:hover{
     background-color: darkred;
