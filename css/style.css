@@ -78,7 +78,7 @@ body {
     font-size: 1.5em;
 }
 
-.submit_try {
+.submit_wyprobuj {
     width: 165px;
     height: 55px;
     margin: 0 auto;
@@ -88,9 +88,9 @@ body {
     border-radius: 5px;
     border: none;
 }
+
 .submit_try:hover{
     background-color: darkred;
-
 }
 
 .headline_bar {
@@ -274,9 +274,9 @@ textarea {
     border: none;
     margin-top: 20px;
 }
+
 .submit:hover{
     background-color: darkred;
-
 }
 
 .footer {
