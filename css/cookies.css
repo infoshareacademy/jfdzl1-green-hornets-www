@@ -2,7 +2,7 @@
     background-color: #046722;
     color: #fff;
     text-align: center;
-    width:100%;
+    width: 100%;
     position: fixed;
     bottom: 0;
 
@@ -10,4 +10,128 @@
 
 .cookies p {
     margin: 12px;
+}
+
+.more {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(50, 50, 50, 0.88);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.moreInside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dddddd;
+    width: 90%;
+    max-width: 800px;
+    height: 90%;
+    max-height: 650px;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+.moreCenter {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cookieIMG {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    text-align: center;
+}
+
+.moreP {
+    width: 100%;
+    float: left;
+}
+
+.cancelIMG {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cookieIMG img {
+    width: 26vh;
+    max-width: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cancelIMG img {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 8%;
+    max-width: 65px;
+
+}
+
+.moreP p {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    color: #0c6728;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+
+    .more p {
+        line-height: normal;
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (min-width: 760px) and (min-height: 560px) {
+    .moreCenter {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        height: auto;
+    }
+
+    .cookieIMG img {
+        position: absolute;
+        top: -90%;
+        transform: translate(-50%, 0);
+    }
+
+    .cancelIMG {
+        position: relative;
+        width: 100%;
+        height: 340px;
+    }
+
+    .cancelIMG img {
+        position: absolute;
+        top: -34%;
+        right: 5%;
+        width: 8%;
+        max-width: 65px;
+    }
+}
+
+@media (max-width: 750px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }
