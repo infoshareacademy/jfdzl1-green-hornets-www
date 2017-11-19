@@ -5,7 +5,10 @@
     width: 100%;
     position: fixed;
     bottom: 0;
+}
 
+.cookies a {
+    color: #eaf200;;
 }
 
 .cookies p {
@@ -76,7 +79,6 @@
     right: 5%;
     width: 8%;
     max-width: 65px;
-
 }
 
 .moreP p {
@@ -89,6 +91,9 @@
     line-height: 45px;
     letter-spacing: 1px;
     margin: 0 auto;
+}
+#cancel {
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {
